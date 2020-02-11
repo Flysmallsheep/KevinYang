@@ -128,13 +128,6 @@ function everyinterval(n) {
 function accelerate(n) {
     myGamePiece.gravity = n;
 }
-	$('body').on('click', '.dashboard_leftNav_category a', function() {
-      var link = $(this).attr('showSection'); //changed from let link
-      var show = $('[section="'+link+'"]');
-      $('[section]').hide();
-      $('body').find(show).fadeIn();
-      $('html,body').scrollTop(0);
-    });
 </script>
 <br>
 <button onmousedown="accelerate(-0.2)" onmouseup="accelerate(0.05)">ACCELERATE</button>
