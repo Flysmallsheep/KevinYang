@@ -5,9 +5,9 @@
 ##############################################################################################################
 
 
-# Task1A: printing board:
 
-#driver code for Task1A and there is a function call underneath the printBoard() function:
+
+#driver code and there is a function call underneath the printBoard() function:
 rowSum = [1,7,7,8]
 colSum = [5,0,9,9]
 board = [[1,0,0,0],[0,0,1,1],[0,0,1,1],[1,0,1,1]]
@@ -20,7 +20,7 @@ rowLengthArray = [i+1 for i in range(rowLength)] #[1,2,3,4]
 colLengthArray = [i+1 for i in range(colLength)] #[1,2,3,4]
 
 
-#Function: Task1A: printing board:
+#Function: printing board:
 def printBoard(board, rowSum, colSum):
 
 
@@ -71,7 +71,7 @@ printBoard(board, rowSum, colSum)
 
 
 
-# Task1B: converting a bitlist into a board:
+# converting a bitlist into a board:
 
 
 def list2board(L):
@@ -104,7 +104,7 @@ print(board)
 
 
 
-# Task1C: Check solution:
+# Check solution:
 
 
 
@@ -146,7 +146,7 @@ print(isSolution(board, rowSum, colSum))
 ##############################################################################################################
 
 
-# Task 2B: Back tracking:
+# Back tracking:
 
 def backtrack(rowSum, colSum):
 
