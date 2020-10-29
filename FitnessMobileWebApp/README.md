@@ -28,4 +28,4 @@ Firstly, I would let him to know the basic rules that we have in our team: 1. Co
 4. If have difficulties,please email or send a quick message to the CTO or the team, we as one part, we should work together.
 
 
-That's all, Thank you!
+That's all, Thank you! 
