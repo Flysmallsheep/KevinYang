@@ -17,3 +17,6 @@ By appending the possible location to the partial solution each time, I set up a
 complexity: because for each space(or element) inside the board, it either 0 or 1, which means each space have two possible chances. Let say the board size is the n, then the board have n*n elements, and each element have 2 states. Which represents by Big O Notation is . O(n) = 2**(n**2)
 3.Certainity:
 That algorithm will be very stable as I mentioned above, when I keep track of location that I am currently at, I will create a indicator to remind the program to stay on the track in order to prevent errors, also I created two variables called originCol and originRow which represents the previous attempt location compare with the current location, so that I can easily backtrack to the previous try and modify that value so I will not lose the previous location, so that the algorithm is reliable and the result have to be certain.
+
+
+That's all, Thank you!
