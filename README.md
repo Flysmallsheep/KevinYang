@@ -1,4 +1,4 @@
 # KevinYang
-This folder contains projects that published by Kevin Yang
+This folder contains projects that published by Kevin Yang.
 
 
